@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+    <html >
+      <head>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+		  <title>Salut</title>
+
+		  <link rel="stylesheet" href="styles/stil.css">
+
+		</head>
+      <body ng-app="test"  ng-controller="loginctrl" >
+        <div class="content">
+			<div class="main"><br><br>
+				<span class="homeB" ng-click="home()">Home</span>
+				<span class="registerB" ng-click="reg()">Register</span>
+				<span class="signB" ng-click="log()">Sign in </span>
+				<span class="helpB">Help</span>
+			</div>
+
+          <div id="main">
+        <div ng-view></div>
+</div>
+
+        </div>
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src="scripts/javascript.js"></script>
+        <script src="https://github.com/angular/angular.js/blob/master/src/ngCookies/cookies.js"></script>
+        <script src="scripts/angularLocalStorage.js"></script>
+
+
+      </body>
+    </html>
+
